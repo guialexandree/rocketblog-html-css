@@ -1,0 +1,98 @@
+@import "color.scss";
+
+section.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+
+  border-bottom: solid 6px var(--green);
+  width: 100%;
+  height: 590px;
+  max-height: 590px;
+  padding: 65px 135px;
+  background-color: var(--purple-bg);
+
+  & > nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+
+    .navigation {
+      ul {
+        display: flex;
+        li {
+          padding: 8px 16px;
+          font-size: 18px;
+          a {
+            text-decoration: none;
+            color: var(--white)
+          }
+        }
+      }
+    }
+
+    .search-container {
+      display: flex;
+      input {
+        flex: 1;
+        min-width: 300px;
+        border-radius: 4px 0 0 4px ;
+        height: 44px;
+        background-color: var(--dark-bg);
+        color: var(--white);
+        padding: 14px 25px;
+      }
+      button {
+        width: 70px;
+        height: 44px;
+        border-radius: 0 4px 4px 0;
+        outline: 0;
+        background-color: var(--button-bg);
+        cursor: pointer;
+        img { cursor: pointer; }
+      }
+    }
+  }
+
+  & > .body-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    & > .description {
+      padding-right: 135px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-start;
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--purple-bg);
+        font-size: 16px;
+        line-height: 27px;
+        color: var(--button-bg);
+        cursor: pointer;
+        img {
+          padding-left: 16px;
+        }
+      }
+    }
+
+    h2 {
+      font-family: 'Poppins',sans-serif;
+      font-size: 36px;
+      color: var(--button-bg);
+    }
+    p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      color: var(--white);
+      font-weight: 300;
+    }
+  }
+}
