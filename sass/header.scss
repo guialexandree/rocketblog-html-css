@@ -7,12 +7,23 @@
   height: 590px;
   max-height: 590px;
 
+  .active::after {
+    content: "";
+    position: absolute;
+    left: -5px;
+    top: 0;
+    width: 2px;
+    height: 18px;
+    background-color: var(--green);
+  }
+
   & #nav {
     .navigation {
       li {
         font-size: 18px;
         padding: 8px 16px;
         a {
+          position: relative;
           color: var(--white)
         }
       }
