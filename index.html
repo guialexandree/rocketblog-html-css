@@ -8,36 +8,32 @@
   <link rel="stylesheet" href="css/styles.min.css">
 </head>
 
-<body>
-  <section class="header-container">
-    <nav class="nav-container">
-      <section class="brand">
-        <img loading="eager" src="img/logo.svg" alt="Logo da RocketBlog">
-      </section>
-      <section class="navigation">
-        <ul>
-          <li class="active"><a href="#home">Home</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#categorias">Categorias</a></li>
-          <li><a href="#contatos">Contatos</a></li>
-        </ul>
-      </section>
-      <section class="search-container">
-        <input type="search"  placeholder="Buscar"/>
+<body id="root">
+  <section class="header-container flex-y ai-stretch">
+    <nav id="nav" class="nav-container flex jc-space-b">
+      <img class="brand" loading="eager" src="img/logo.svg" alt="Logo da RocketBlog">
+      <ul class="flex navigation">
+        <li class="active"><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#categorias">Categorias</a></li>
+        <li><a href="#contatos">Contatos</a></li>
+      </ul>
+      <section class="flex input-search-container">
+        <input type="search" placeholder="Buscar"/>
         <button type="submit">
           <img src="img/search.svg" alt="Botão buscar">
         </button>
       </section>
     </nav>
-    <section class="body-container">
-      <section class="texts">
+    <section class="body-container flex jc-space-b">
+      <article class="texts">
         <h2>Veja o guia definitivo para conquistar seus objetivos como DEV em 2022</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique placerat hac. 1</p>
         <button>
           Ver mais
           <img src="img/arrow-right.svg" alt="Seta para direita">
         </button>
-      </section>
+      </article>
       <section>
         <img src="img/featured-image.png" alt="Imagem ilustrativa de código">
       </section>
