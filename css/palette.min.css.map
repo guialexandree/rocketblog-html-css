@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,AAAC,CACF,WAAW,CAAA,QAAC,CACZ,SAAS,CAAA,QAAC,CACV,WAAW,CAAA,QAAC,CACZ,OAAO,CAAA,KAAC,CACR,cAAc,CAAA,QAAC,CACf,OAAO,CAAA,QAAC,CACT",
+    "sources": [
+        "../sass/palette.scss"
+    ],
+    "names": [],
+    "file": "palette.min.css"
+}

@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../sass/nav.scss"
-    ],
-    "names": [],
-    "file": "nav.min.css"
-}
