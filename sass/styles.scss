@@ -2,6 +2,7 @@
 
 @import "commons.scss";
 @import "header.scss";
+@import "main.scss";
 
 #root {
   .flex { flex-direction: row; }
@@ -17,13 +18,11 @@
     &.jc-space-a { justify-content: space-around; }
     &.jc-space-e { justify-content: space-evenly; }
     &.jc-space-b { justify-content: space-between; }
+    &.jc-fs { justify-content: flex-start; }
+    &.jc-fe { justify-content: flex-end; }
 
     &.ai-fs { align-items: flex-start; }
     &.ai-fe { align-items: flex-end; }
     &.ai-stretch { align-items: stretch; }
-  }
-
-  .item {
-    flex: 1;
   }
 }

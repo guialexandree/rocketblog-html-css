@@ -1,0 +1,47 @@
+@import "palette.scss";
+
+#main-root {
+  max-width: 100vw;
+  padding: 65px 135px;
+
+  .card {
+    max-width: 375px;
+    img + h6 {
+      margin-top: 16px;
+    }
+    h6 {
+      font-size: 16px;
+      color: #000;
+      font-weight: 400;
+    }
+
+    h6 + h2 {
+      margin-top: 18px;
+    }
+
+
+    h2 {
+      font-size: 24px;
+      line-height: 36px;
+      color: var(--purple-bg);
+    }
+
+    h2 + p {
+      margin-top: 8px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 24px;
+      color: #000;
+      font-weight: 400;
+    }
+  }
+
+  hr {
+    width: 100%;
+  }
+  .posts-container {
+    padding-right: 135px;
+  }
+}

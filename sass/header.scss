@@ -41,14 +41,8 @@
   }
 
   & > .body-container {
-
     & > .texts {
       padding-right: 135px;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: flex-start;
       h2 {
         font-family: 'Poppins',sans-serif;
         font-size: 36px;
@@ -61,7 +55,7 @@
         line-height: 30px;
         font-weight: 300;
       }
-      button {
+      a {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -76,6 +70,5 @@
         }
       }
     }
-
   }
 }
