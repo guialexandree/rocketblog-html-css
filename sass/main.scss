@@ -4,8 +4,22 @@
   max-width: 100vw;
   padding: 65px 135px;
 
+  .posts-container {
+    .card {
+      max-width: 375px;
+    }
+  }
+  .post-root {
+    padding-right: 135px;
+
+    img {
+      margin-bottom: 16px;
+    }
+  }
   .card {
-    max-width: 375px;
+    & + .card {
+      margin-left: 30px;
+    }
     img + h6 {
       margin-top: 16px;
     }
@@ -40,8 +54,10 @@
 
   hr {
     width: 100%;
+    margin: 24px 0;
   }
   .posts-container {
+    padding-top: 65px;
     padding-right: 135px;
   }
 }
