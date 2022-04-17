@@ -6,7 +6,7 @@ https://guialexandree.github.io/rocketblog-html-css/ 🎈
 ![image](https://user-images.githubusercontent.com/30730216/160450241-380a74e1-deb4-4764-ab80-0507d0391190.png)
 
 
-Original: [Ver desafio original](https://efficient-sloth-d85.notion.site/Desafio-RocketBlog-807e38809814423e80469b080444db5e#c08d0c63c6354f2e8ce7fd1e616604af)<br>
+[Desafio original](https://efficient-sloth-d85.notion.site/Desafio-RocketBlog-807e38809814423e80469b080444db5e#c08d0c63c6354f2e8ce7fd1e616604af)<br>
 
 Créditos<br>
 ![Autoria](https://user-images.githubusercontent.com/30730216/160457405-3ce948ee-e921-41b1-8cc3-509c111d3afd.png)<br>
