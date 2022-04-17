@@ -1,3 +1,6 @@
+# Solução do desafio 
+https://guialexandree.github.io/rocketblog-html-css/ 🎈
+
 # Desafio: RocketBlog
 
 ![image](https://user-images.githubusercontent.com/30730216/160450241-380a74e1-deb4-4764-ab80-0507d0391190.png)
@@ -46,7 +49,6 @@ Neste desafio você irá desenvolver uma homepage para um blog.
 }
 ```
 
-
 ## Layout
 
 ![image](https://user-images.githubusercontent.com/30730216/160449933-1a67d154-3891-424b-9353-8a66f79dc317.png)
@@ -56,7 +58,5 @@ Neste desafio você irá desenvolver uma homepage para um blog.
 Baixe os assets aqui ⤵️
 
 [images.zip](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/61e68811-afcb-4a18-8827-fe0c7a3a9c2e/images.zip)
-
-
 
 Feito com 💜 por Rocketseat
